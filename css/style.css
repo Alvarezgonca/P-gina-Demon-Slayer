@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(226, 221, 221);
+    text-decoration: none;
+    letter-spacing: 0.06rem;
+}
+
+body {
+    background-color: rgb(20, 20, 24);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    background: url(../img/fundo_Demon_Slayer.png) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+/* HEADER */
+
+.container-header {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.5rem;
+}
+
+
+/* Logo e tag p */
+
+
+#logo-p-header {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    font-size: 1.9rem;
+    padding: 0.3rem 0 0.3rem 0.7rem;
+}
+
+
+/* Links */
+
+
+#links-header {
+    font-size: 1.7rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#link-header {
+    padding: 0 0.7rem;
+}
+
+
+#link-header:hover {
+    font-size: 1.5rem;
+}
+
+
+/* MAIN */
+
+
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    padding:1rem;
+    background-color: rgb(164, 32, 32);
+}
+
+
+.texto {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    
+}
+
+
+#imagens {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+  
+.img-main {
+    width: 33.33%;
+    height: auto;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container-footer {
+    background-color: black;
+    padding: 1.2rem 1.2rem 0.4rem 1.2rem;
+}
+
+
+.direitos {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+
+/* MEDIA SCREEN */
+
+
+@media (max-width: 740px) {
+    #links-header {
+      display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
